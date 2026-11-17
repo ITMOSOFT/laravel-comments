@@ -64,6 +64,8 @@ $post->allComments()->public()->get();
 $post->allComments()->internal()->get();
 ```
 
+Metadata is stored as JSON and exposed as a PHP array on the comment model.
+
 ## Visibility
 
 Supported values are `public` and `internal`. Visibility is stored as data; your application

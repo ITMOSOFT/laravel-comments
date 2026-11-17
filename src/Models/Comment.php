@@ -21,6 +21,7 @@ class Comment extends Model
     protected function casts(): array
     {
         return [
+            'metadata' => 'array',
             'is_edited' => 'boolean',
             'edited_at' => 'datetime',
         ];
